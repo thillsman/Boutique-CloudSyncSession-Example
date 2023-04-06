@@ -11,6 +11,10 @@
 		D29693DB29DE0562006BF70B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29693DA29DE0562006BF70B /* ContentView.swift */; };
 		D29693DD29DE0562006BF70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29693DC29DE0562006BF70B /* Assets.xcassets */; };
 		D29693E029DE0562006BF70B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29693DF29DE0562006BF70B /* Preview Assets.xcassets */; };
+		D29693E829DE05A5006BF70B /* Boutique in Frameworks */ = {isa = PBXBuildFile; productRef = D29693E729DE05A5006BF70B /* Boutique */; };
+		D29693EB29DE05C2006BF70B /* CloudSyncSession in Frameworks */ = {isa = PBXBuildFile; productRef = D29693EA29DE05C2006BF70B /* CloudSyncSession */; };
+		D29693ED29DE05F6006BF70B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29693EC29DE05F6006BF70B /* Item.swift */; };
+		D29693EF29DE063E006BF70B /* KnapsackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29693EE29DE063E006BF70B /* KnapsackManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D29693DA29DE0562006BF70B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D29693DC29DE0562006BF70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D29693DF29DE0562006BF70B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D29693EC29DE05F6006BF70B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D29693EE29DE063E006BF70B /* KnapsackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnapsackManager.swift; sourceTree = "<group>"; };
+		D29693F029DE0923006BF70B /* Knapsack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Knapsack.entitlements; sourceTree = "<group>"; };
+		D29693F129DF1C8D006BF70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D29693EB29DE05C2006BF70B /* CloudSyncSession in Frameworks */,
+				D29693E829DE05A5006BF70B /* Boutique in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +61,12 @@
 		D29693D729DE0562006BF70B /* Knapsack */ = {
 			isa = PBXGroup;
 			children = (
+				D29693F129DF1C8D006BF70B /* Info.plist */,
+				D29693F029DE0923006BF70B /* Knapsack.entitlements */,
 				D29693D829DE0562006BF70B /* KnapsackApp.swift */,
 				D29693DA29DE0562006BF70B /* ContentView.swift */,
+				D29693EE29DE063E006BF70B /* KnapsackManager.swift */,
+				D29693EC29DE05F6006BF70B /* Item.swift */,
 				D29693DC29DE0562006BF70B /* Assets.xcassets */,
 				D29693DE29DE0562006BF70B /* Preview Content */,
 			);
@@ -83,6 +97,10 @@
 			dependencies = (
 			);
 			name = Knapsack;
+			packageProductDependencies = (
+				D29693E729DE05A5006BF70B /* Boutique */,
+				D29693EA29DE05C2006BF70B /* CloudSyncSession */,
+			);
 			productName = Knapsack;
 			productReference = D29693D529DE0562006BF70B /* Knapsack.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +129,10 @@
 				Base,
 			);
 			mainGroup = D29693CC29DE0562006BF70B;
+			packageReferences = (
+				D29693E629DE05A5006BF70B /* XCRemoteSwiftPackageReference "Boutique" */,
+				D29693E929DE05C2006BF70B /* XCRemoteSwiftPackageReference "CloudSyncSession" */,
+			);
 			productRefGroup = D29693D629DE0562006BF70B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D29693DB29DE0562006BF70B /* ContentView.swift in Sources */,
+				D29693ED29DE05F6006BF70B /* Item.swift in Sources */,
 				D29693D929DE0562006BF70B /* KnapsackApp.swift in Sources */,
+				D29693EF29DE063E006BF70B /* KnapsackManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +288,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Knapsack/Knapsack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Knapsack/Preview Content\"";
 				DEVELOPMENT_TEAM = YSENS8L33J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Knapsack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,12 +319,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Knapsack/Knapsack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Knapsack/Preview Content\"";
 				DEVELOPMENT_TEAM = YSENS8L33J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Knapsack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +367,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D29693E629DE05A5006BF70B /* XCRemoteSwiftPackageReference "Boutique" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mergesort/Boutique";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		D29693E929DE05C2006BF70B /* XCRemoteSwiftPackageReference "CloudSyncSession" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ryanashcraft/CloudSyncSession";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D29693E729DE05A5006BF70B /* Boutique */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D29693E629DE05A5006BF70B /* XCRemoteSwiftPackageReference "Boutique" */;
+			productName = Boutique;
+		};
+		D29693EA29DE05C2006BF70B /* CloudSyncSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D29693E929DE05C2006BF70B /* XCRemoteSwiftPackageReference "CloudSyncSession" */;
+			productName = CloudSyncSession;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D29693CD29DE0562006BF70B /* Project object */;
 }

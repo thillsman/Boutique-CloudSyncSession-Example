@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2E413D72-5B35-4C87-84F2-1CEAFE1249F8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7125A3CA-2DF9-438F-8A6C-E49ECDE387A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/Knapsack-abayckannswhmcffnzwpgwbbgtqm/SourcePackages/checkouts/CloudSyncSession/Sources/CloudSyncSession/CloudSyncSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "modify(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7125A3CA-2DF9-438F-8A6C-E49ECDE387A8 - a92508c6d20f3e17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CloudSyncSession.CloudSyncSession.modify(CloudSyncSession.ModifyOperation) -&gt; ()"
+                  moduleName = "Knapsack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tylerhillsman/Library/Developer/Xcode/DerivedData/Knapsack-abayckannswhmcffnzwpgwbbgtqm/SourcePackages/checkouts/CloudSyncSession/Sources/CloudSyncSession/CloudSyncSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "7125A3CA-2DF9-438F-8A6C-E49ECDE387A8 - a92508c6d20f3e17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CloudSyncSession.CloudSyncSession.modify(CloudSyncSession.ModifyOperation) -&gt; ()"
+                  moduleName = "Knapsack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tylerhillsman/Library/Developer/Xcode/DerivedData/Knapsack-abayckannswhmcffnzwpgwbbgtqm/SourcePackages/checkouts/CloudSyncSession/Sources/CloudSyncSession/CloudSyncSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A0FAECF-E7EC-4C95-92D2-83947837E860"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Knapsack/KnapsackApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "application(_:didReceiveRemoteNotification:fetchCompletionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6A0FAECF-E7EC-4C95-92D2-83947837E860 - 5ee24020985c8536"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Knapsack.AppDelegate.application(_: __C.UIApplication, didReceiveRemoteNotification: Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;, fetchCompletionHandler: (__C.UIBackgroundFetchResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Knapsack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tylerhillsman/Developer/New%20Knapsack/Knapsack/Knapsack/KnapsackApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1064">
+               </Location>
+               <Location
+                  uuid = "6A0FAECF-E7EC-4C95-92D2-83947837E860 - 5ee24020985c85ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Knapsack.AppDelegate.application(_: __C.UIApplication, didReceiveRemoteNotification: Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;, fetchCompletionHandler: (__C.UIBackgroundFetchResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Knapsack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tylerhillsman/Developer/New%20Knapsack/Knapsack/Knapsack/KnapsackApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "6A0FAECF-E7EC-4C95-92D2-83947837E860 - 5ee24020985c85ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Knapsack.AppDelegate.application(_: __C.UIApplication, didReceiveRemoteNotification: Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;, fetchCompletionHandler: (__C.UIBackgroundFetchResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Knapsack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tylerhillsman/Developer/New%20Knapsack/Knapsack/Knapsack/KnapsackApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B60219E9-35AA-4996-93C5-1D4CAD058BA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Knapsack/KnapsackManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
