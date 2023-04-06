@@ -8,4 +8,4 @@ Non-code things:
 *Note: as it stands, I haven't hooked up delete or conflict resolution yet.*
 
 In action:
-[![Watch the video](https://files.mastodon.social/media_attachments/files/110/152/671/838/681/163/small/8f14ca2fa489d593.png])(https://files.mastodon.social/media_attachments/files/110/152/671/838/681/163/original/8f14ca2fa489d593.mp4)
+[![Watch the video](https://files.mastodon.social/media_attachments/files/110/152/671/838/681/163/small/8f14ca2fa489d593.png)](https://files.mastodon.social/media_attachments/files/110/152/671/838/681/163/original/8f14ca2fa489d593.mp4)
